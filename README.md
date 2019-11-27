@@ -24,9 +24,9 @@
 ### 전체 논문(Paper) 수: 170176
 ##
 ## [함수 설명]
-### findTopPaper(top_n=4, start_year = 2018): stary_year부터 지금까지의 paper를 citedby를 기준으로 top_n개 만큼 추출.
-### findTopResearcher(top_n=4, by='n_adjacencies'): by를 기준으로 top_n명의 researcher 추출.
-### find_close_paper(input_title = 'Bert: Pre-training of deep bidirectional transformers for language understanding', top_n = 10, start_year = 2018, start_citedby = 20): title 간의 cosine similarity를 사용하여 유사한 title 추출. (start_year과 start_citedby 이상인 paper 중) input_title과 유사한 title을 가진 paper를 top_n만큼 추출. (이미 존재하고 있는 paper만 입력 가능)
-### find_paper(keyword = 'bert', top_n = 10, start_year = 2018): title에 keyword가 들어간 paper를 citedby를 기준으로 top_n개 추출.
+### findTopPaper(top_n, start_year): stary_year부터 지금까지의 paper를 citedby를 기준으로 top_n개 만큼 추출.
+### findTopResearcher(top_n, by): by를 기준으로 top_n명의 researcher 추출.
+### find_close_paper(input_title, top_n, start_year, start_citedby): title 간의 cosine similarity를 사용하여 유사한 title 추출. (start_year과 start_citedby 이상인 paper 중) input_title과 유사한 title을 가진 paper를 top_n만큼 추출. (이미 존재하고 있는 paper만 입력 가능)
+### find_paper(keyword, top_n, start_year): title에 keyword가 들어간 paper를 citedby를 기준으로 top_n개 추출.
 
 
