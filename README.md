@@ -3,6 +3,12 @@
 # 목표
 ## Ian Goodfellow를 기준으로 연구자 간의 네트워크를 구축하고, 이를 기반으로 좋은 논문과 연구자를 찾아보자!
 ![CreatePlane](./capture/network/network_5.png)
+# 목차
+## 1. 크롤링 과정
+## 2. DB
+## 3. 수집한 데이터의 기본 정보
+## 4. 함수 설명
+## 5. 파일 설명
 ##
 # 크롤링 과정
 ![CreatePlane](./capture/IanGoodfellow_googlescholar.png)
@@ -21,7 +27,7 @@
 ![CreatePlane](./capture/db/paper_구조.PNG)
 ![CreatePlane](./capture/db/paper.PNG)
 ##
-# 기본 정보
+# 수집한 데이터의 기본 정보
 ### 전체 연구자(researcher) 수: 52943
 ### 전체 논문(Paper) 수: 170176
 ##
