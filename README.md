@@ -1,6 +1,6 @@
 # Researcher Network by Google Scholar
 ## Co-authors of google scholar are used to identify the connections among researchers.
-### 목차
+## 목차
 1. 목표
 2. 크롤링 과정
 3. DB
