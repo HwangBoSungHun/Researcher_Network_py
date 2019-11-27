@@ -13,5 +13,14 @@
 ### 전체 연구자(researcher) 수: 52943
 ### 전체 논문(Paper) 수: 170176
 ##
-## [
+## [DB]
+### MySQL을 통해 정보 저장
+### 1. Researcher
+![CreatePlane](./capture/db/researcher.png)
+![CreatePlane](./capture/db/researcher_구조.png)
+###
+### 2. Paper
+![CreatePlane](./capture/db/paper.png)
+![CreatePlane](./capture/db/paper_구조.png)
+
 
