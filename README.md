@@ -9,18 +9,24 @@
 ### 3. 1번의 공동 저자(Co author)들의 정보(name, URL, affiliation)를 추출 및 DB에 저장
 ### 4. 3번의 공동 저자들의 URL에 들어가서 2번과 3번을 동일하게 시행 
 ##
+## [DB]
+### MySQL을 통해 정보 저장
+### 1. Researcher
+![CreatePlane](./capture/db/researcher_구조.PNG)
+![CreatePlane](./capture/db/researcher.PNG)
+###
+### 2. Paper
+![CreatePlane](./capture/db/paper_구조.PNG)
+![CreatePlane](./capture/db/paper.PNG)
+##
 ## [기본 정보]
 ### 전체 연구자(researcher) 수: 52943
 ### 전체 논문(Paper) 수: 170176
 ##
-## [DB]
-### MySQL을 통해 정보 저장
-### 1. Researcher
-![CreatePlane](./capture/db/researcher.PNG)
-![CreatePlane](./capture/db/researcher_구조.PNG)
-###
-### 2. Paper
-![CreatePlane](./capture/db/paper.PNG)
-![CreatePlane](./capture/db/paper_구조.PNG)
+## [함수 설명]
+### findTopPaper(top_n=4, start_year = 2018): stary_year부터 지금까지의 paper를 citedby를 기준으로 top_n개 만큼 추출.
+### findTopResearcher(top_n=4, by='n_adjacencies'): by를 기준으로 top_n명의 researcher 추출.
+### find_close_paper(input_title = 'Bert: Pre-training of deep bidirectional transformers for language understanding', top_n = 10, start_year = 2018, start_citedby = 20): title 간의 cosine similarity를 사용하여 유사한 title 추출. (start_year과 start_citedby 이상인 paper 중) input_title과 유사한 title을 가진 paper를 top_n만큼 추출. (이미 존재하고 있는 paper만 입력 가능)
+### find_paper(keyword = 'bert', top_n = 10, start_year = 2018): title에 keyword가 들어간 paper를 citedby를 기준으로 top_n개 추출.
 
 
