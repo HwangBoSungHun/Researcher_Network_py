@@ -8,16 +8,16 @@
 5. 함수 설명
 6. 파일 설명
 #
-# 1. 목표
-## Ian Goodfellow를 기준으로 연구자 간의 네트워크를 구축하고, 이를 기반으로 좋은 논문과 연구자를 찾아보자!
+## 1. 목표
+Ian Goodfellow를 기준으로 연구자 간의 네트워크를 구축하고, 이를 기반으로 좋은 논문과 연구자를 찾아보자!
 ![CreatePlane](./capture/network/network_5.png)
 ##
-# 2. 크롤링 과정
+## 2. 크롤링 과정
 ![CreatePlane](./capture/IanGoodfellow_googlescholar.png)
-### (1) 최초의 연구자(Ian Goodfellow)의 google scholar에 들어감.
-### (2) 1번의 연구자의 정보(affiliation, paper, citations, h index)를 추출 및 DB에 저장
-### (3) 1번의 공동 저자(Co author)들의 정보(name, URL, affiliation)를 추출 및 DB에 저장
-### (4) 3번의 공동 저자들의 URL에 들어가서 2번과 3번을 동일하게 시행 
+(1) 최초의 연구자(Ian Goodfellow)의 google scholar에 들어감.
+(2) 1번의 연구자의 정보(affiliation, paper, citations, h index)를 추출 및 DB에 저장
+(3) 1번의 공동 저자(Co author)들의 정보(name, URL, affiliation)를 추출 및 DB에 저장
+(4) 3번의 공동 저자들의 URL에 들어가서 2번과 3번을 동일하게 시행 
 ##
 # 3. DB
 ### MySQL을 통해 정보 저장
