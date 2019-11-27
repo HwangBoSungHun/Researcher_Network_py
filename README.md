@@ -33,5 +33,11 @@
 ![CreatePlane](./capture/function/find_close_paper.PNG)
 ### 4. find_paper(keyword, top_n, start_year): title에 keyword가 들어간 paper를 citedby를 기준으로 top_n개 추출.
 ![CreatePlane](./capture/function/find_paper.PNG)
+##
+## [파일 설명]
+### 1. ../code/first.mwb: googlescholar database 생성
+### 2. ../code/googlescholar.sql: 크롤링을 통해 생성된 DB
+### 3. ../code/GoogleScholar_utitlities.py: 위에서 설명한 크롤링 및 DB 저장, 정보 추출에 필요한 함수 구현
+### 4. ../code/GoogleScholar_word2vec.py: Word2Vec을 이용해서 find_close_paper 함수 구현
 
 
