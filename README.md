@@ -15,8 +15,8 @@
 ## 2. 크롤링 과정
 ![CreatePlane](./capture/IanGoodfellow_googlescholar.png)
 ### (1) 최초의 연구자(Ian Goodfellow)의 google scholar에 들어감.
-### (2) 1번의 연구자의 정보(affiliation, paper, citations, h index)를 추출 및 DB에 저장
-### (3) 1번의 공동 저자(Co author)들의 정보(name, URL, affiliation)를 추출 및 DB에 저장
+### (2) 1번의 연구자의 정보(affiliation, paper, citations, h index)를 추출 및 DB에 저장, Network(networkx)에 추가
+### (3) 1번의 공동 저자(Co author)들의 정보(name, URL, affiliation)를 추출 및 DB에 저장, Network(networkx)에 추가
 ### (4) 3번의 공동 저자들의 URL에 들어가서 2번과 3번을 동일하게 시행 
 ##
 ## 3. DB
