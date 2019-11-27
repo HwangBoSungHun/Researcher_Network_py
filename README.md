@@ -3,7 +3,7 @@
 ## 목표: Ian Goodfellow를 기준으로 연구자 간의 네트워크를 구축해보자!
 ![CreatePlane](./capture/network/network_5.png)
 ##
-# [크롤링 과정]
+# 크롤링 과정
 ![CreatePlane](./capture/IanGoodfellow_googlescholar.png)
 ### 1. 최초의 연구자(Ian Goodfellow)의 google scholar에 들어감.
 ### 2. 1번의 연구자의 정보(affiliation, paper, citations, h index)를 추출 및 DB에 저장
