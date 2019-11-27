@@ -2,22 +2,22 @@
 ## Co-authors of google scholar are used to identify the connections among researchers.
 ## 목차
 1. 목표
-2. 크롤링 과정
+2. Crawling
 3. DB
 4. 수집한 데이터의 기본 정보
-5. 함수 설명
+5. Funtion 설명
 6. 파일 설명
 #
 ## 1. 목표
 ### Ian Goodfellow를 기준으로 연구자 간의 네트워크를 구축하고, 이를 기반으로 좋은 논문과 연구자를 찾아보자!
 ![CreatePlane](./capture/network/network_5.png)
 ##
-## 2. 크롤링 과정
+## 2. Crawling
 ![CreatePlane](./capture/IanGoodfellow_googlescholar.png)
 ### (1) 최초의 연구자(Ian Goodfellow)의 google scholar에 들어감.
 ### (2) 1번의 연구자의 정보(affiliation, paper, citations, h index)를 추출 및 DB에 저장, Network(networkx)에 추가
 ### (3) 1번의 공동 저자(Co author)들의 정보(name, URL, affiliation)를 추출 및 DB에 저장, Network(networkx)에 추가
-### (4) 3번의 공동 저자들의 URL에 들어가서 2번과 3번을 동일하게 시행 
+### (4) 3번의 공동 저자들의 URL에 들어가서 2번과 3번을 동일하게 시행(5회) 
 ##
 ## 3. DB
 ### MySQL을 통해 정보 저장
@@ -33,7 +33,7 @@
 ### 전체 연구자(researcher) 수: 52943
 ### 전체 논문(Paper) 수: 170176
 ##
-## 5. 함수 설명
+## 5. Function 설명
 ### (1) findTopPaper(top_n, start_year): stary_year부터 지금까지의 paper를 citedby를 기준으로 top_n개 만큼 추출.
 ![CreatePlane](./capture/function/findTopPaper.PNG)
 ### (2) findTopResearcher(top_n, by): by를 기준으로 top_n명의 researcher 추출.
