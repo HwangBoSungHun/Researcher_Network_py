@@ -16,11 +16,11 @@
 ## [DB]
 ### MySQL을 통해 정보 저장
 ### 1. Researcher
-![CreatePlane](./capture/db/researcher.png)
-![CreatePlane](./capture/db/researcher_구조.png)
+![CreatePlane](./capture/db/researcher.PNG)
+![CreatePlane](./capture/db/researcher_구조.PNG)
 ###
 ### 2. Paper
-![CreatePlane](./capture/db/paper.png)
-![CreatePlane](./capture/db/paper_구조.png)
+![CreatePlane](./capture/db/paper.PNG)
+![CreatePlane](./capture/db/paper_구조.PNG)
 
 
