@@ -1,6 +1,7 @@
 # Researcher Network by Google Scholar
 ## Co-authors of google scholar are used to identify the connections among researchers.
-## 목표: Ian Goodfellow를 기준으로 연구자 간의 네트워크를 구축하고, 이를 기반으로 좋은 논문과 연구자를 찾아보자!
+# 목표
+## Ian Goodfellow를 기준으로 연구자 간의 네트워크를 구축하고, 이를 기반으로 좋은 논문과 연구자를 찾아보자!
 ![CreatePlane](./capture/network/network_5.png)
 ##
 # 크롤링 과정
